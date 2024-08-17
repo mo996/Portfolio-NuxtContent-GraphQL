@@ -13,7 +13,8 @@ const props = defineProps(['posts'])
       <h2 class="text-xl font-bold mb-2">{{ post.title }}</h2>
       <p class="text-gray-700 mb-4">{{ post.description }}</p>
       <NuxtLink :to="post._path"
-        class="inline-block bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded float-right mb-8">Read More
+        class="inline-block bg-orange-400 hover:bg-gray-700 text-amber-900 hover:text-white py-2 px-4 rounded-md float-right mb-8 transition-colors duration-200 ease-in-out">
+        Read More
       </NuxtLink>
     </div>
   </div>
