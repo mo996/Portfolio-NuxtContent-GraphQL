@@ -1,5 +1,7 @@
 # Nuxt 3 Minimal Starter
 
+![App Demo](animation.gif)
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
